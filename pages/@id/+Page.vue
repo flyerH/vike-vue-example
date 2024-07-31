@@ -2,7 +2,10 @@
     <div>
       <ol>
         <li v-for="item in data.movies" :key="item.id">
-          <a :href="'/' + item.id">{{ item.id }}</a>
+          <a :href="'http://localhost:3000/' + item.id">http://localhost:3000/{{ item.id }}</a>
+        </li>
+        <li v-for="item in data.movies" :key="item.id">
+          <a :href="'/' + item.id">/{{ item.id }}</a>
         </li>
       </ol>
       <div>id: {{ pageContext.routeParams.id }}</div>
