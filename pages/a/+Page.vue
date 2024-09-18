@@ -6,7 +6,7 @@
       </li>
       <br />
       <li v-for="item in data.movies" :key="item.id">
-        <a :href="'http://localhost:3001/a#' + item.id"
+        <a :href="'http://localhost:3000/a#' + item.id"
           >http://localhost:3000/a#{{ item.id }}</a
         >
       </li>
