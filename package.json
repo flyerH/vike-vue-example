@@ -11,9 +11,9 @@
     "@types/node-fetch": "^2.6.11",
     "@tanstack/vue-query": "^5.51.9",
     "node-fetch": "^3.3.2",
-    "vike": "^0.4.181",
-    "vike-vue-query": "0.1.1-commit-4934997",
-    "vike-vue": "^0.7.6",
+    "vike": "^0.4.195",
+    "vike-vue-query": "0.1.4",
+    "vike-vue": "^0.8.5",
     "vite": "^5.3.4",
     "vue": "^3.4.33"
   },
