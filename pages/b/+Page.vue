@@ -1,6 +1,6 @@
 <template>
-  <div>Page a</div>
-  <a href="/">back to root</a>
+  <div>Page B</div>
+  <a href="/">back to A</a>
 </template>
 
 <script lang="ts" setup>
